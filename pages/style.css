@@ -9,8 +9,105 @@
 
 body {
     font-family: "Homenaje", sans-serif;    
+    background-color: #ffeb557e;
 }
 
-.navbar {
-    background-color: #ffeb557e;
+h1, h2 {
+    color: #D91656;
+}
+p {
+    margin: 10px 0;
+}
+.highlight {
+    color: #640D5F;
+    font-weight: bold;
+}
+.container {
+    background: #FFEB55;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+ul li {
+    margin: 5px 0;
+}
+
+.btn {
+    font-style: none;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    margin-left: 10px;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important;
+}
+
+/* Banner */
+header {
+    background: linear-gradient(to right, #000000, #333333);
+}
+
+header h1 {
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Seção História */
+#historia h2 {
+    color: #640D5F;
+    font-weight: bold;
+}
+
+#historia p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+#historia img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Cards de Personagens */
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-title {
+    color: #640D5F;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 0.95rem;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: #aaa;
+    font-size: 0.9rem;
 }
