@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Homenaje&display=swap');
+
+/* font-family: "Homenaje", sans-serif; */
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: "Homenaje", sans-serif;    
+}
+
+.navbar {
+    background-color: #ffeb557e;
+}
